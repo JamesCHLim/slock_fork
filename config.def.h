@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
 static const char *user  = "nobody";
-static const char *group = "nogroup";
+static const char *group = "nobody";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] = "black",       /* after initialization */
@@ -29,4 +29,4 @@ static const char * message = "Maranatha - Our Lord Come!";
 static const char * text_color = "#ffffff";
 
 /* text size (must be a valid size) */
-static const char * font_name = "9x15";
+static const char * font_name = "6x13";
